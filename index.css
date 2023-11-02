@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(210, 210, 210);
+    transition: 0.25s;
+    background-image: url("ultra_nature_wallpaper_4k_hd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    height: 50vh;
+    background-color: rgb(240, 240, 240);
+    border-radius: 6px;
+    position: absolute;
+    left: 37.5vw;
+    backdrop-filter: blur(10px);
+    top: 25vh;
+}
+
+#heading{
+    width: 90%;
+    top: 5%;
+    font-size: 150%;
+    left: 5%;
+    height: 10%;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+#pass{
+    width: 80%;
+    position: absolute;
+    height: 10%;
+    top: 20%;
+    border: none;
+    justify-content: left;
+    align-items: center;
+    border-radius: 2px;
+}
+
+#name{
+    width: 80%;
+    position: absolute;
+    height: 10%;
+    top: 35%;
+    border: none;
+    justify-content: left;
+    align-items: center;
+    border-radius: 2px;
+}
+
+#fname{
+    width: 80%;
+    position: absolute;
+    height: 10%;
+    top: 50%;
+    border: none;
+    justify-content: left;
+    align-items: center;
+    border-radius: 2px;
+}
+
+#label{
+    display: flex;
+    position: absolute;
+    top: 65%;
+    justify-content: left;
+    width: 20%;
+    left: 35%;
+}
+
+#option1{
+    position: absolute;
+    width: 10%;
+    left: 50%;
+    top: 65.5%;
+}
+
+#submit{
+    width: 60%;
+    background-color: #11960c;
+    color: #fff;
+    height: 10%;
+    border: none;
+    font-size: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 85%;
+    opacity: 1 !important;
+}
