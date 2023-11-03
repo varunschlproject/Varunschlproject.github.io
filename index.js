@@ -14,16 +14,17 @@ button.addEventListener("click", function() {
       fetch(urlfornow)
       .then(response =>{
         console.log(response);
-        if (response.success){
-            alert("Saved")
-        }
+        alert("Successfully saved");
+        idbox.value = "";
+        name.value = "";
+        fname.value = ""
       })
 
     } catch (error) {
       console.log(error);
     }
   }else if (canfire === false){
-    alert("Don't spam the button please");
+    alert("Please wait, loading");
   }else {
     alert("Fill the values of Student");
   }
